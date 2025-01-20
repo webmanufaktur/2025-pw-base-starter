@@ -1,0 +1,7 @@
+{% extends "layouts/Base.html.twig" %}
+{% block app %}
+	{{ include('components/Header.html.twig') }}
+	{{ include('components/Nav.html.twig') }}
+	{% block content %}{% endblock %}
+	{{ include('components/Footer.html.twig') }}
+{% endblock %}
