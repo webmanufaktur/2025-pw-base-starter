@@ -1,0 +1,33 @@
+{#
+Variables required for this component:
+- page: The current page object
+  - title: The title of the page
+  - summary: The summary of the page (falls back to title if not set)
+  - keywords: Keywords for the page (optional)
+  - httpUrl: The full URL of the page
+  - image: 
+    - url: The URL of the page's image (falls back to default image if not set)
+- config:
+  - siteName: The name of the site
+  - urls:
+    - templates: The URL to the templates directory
+#}
+
+{# Basics #}
+<title>{{ page.title|default(page.title) }}</title>
+<meta name="description"          content="{{ page.meta.summary|default(page.title) }}">
+<meta name="author"               content="">
+
+{# Open Graph / Facebook #}
+<meta property="og:type"          content="website">
+<meta property="og:url"           content="{{ page.httpUrl }}">
+<meta property="og:title"         content="{{ page.title }}">
+<meta property="og:description"   content="{{ page.meta.summary|default(page.title) }}">
+<meta property="og:image"         content="{{ page.meta.og_image.httpUrl|default(config.urls.templates ~ 'images/default-og-image.jpg') }}">
+
+{# Twitter #}
+<meta name="twitter:card"          content="summary_large_image">
+<meta name="twitter:url"           content="{{ page.httpUrl }}">
+<meta name="twitter:title"         content="{{ page.title }}">
+<meta name="twitter:description"   content="{{ page.meta.summary|default(page.title) }}">
+<meta name="twitter:image"         content="{{ page.meta.og_image.httpUrl|default(config.urls.templates ~ 'images/default-twitter-image.jpg') }}">

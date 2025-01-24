@@ -1,4 +1,4 @@
-# ProcessWire Base Starter 2025
+# ProcessWire Base Starter 2025 Developer Setup
 
 Modern ProcessWire CMS/CMF starter project with focus on developer experience and best practices.
 
@@ -17,16 +17,24 @@ Modern ProcessWire CMS/CMF starter project with focus on developer experience an
   - PNPM for frontend packages
   - Prettier for code formatting
 - Project structure:
-  - Organized `/site` directory
-  - Page Classes in `/site/classes`
-  - Custom modules in `/site/modules`
-  - Twig templates in `/site/templates/twig`
-  - Asset management in `/site/assets`
+  - Organized `/site/` directory
+  - Page Classes in `/site/classes/`
+  - Custom modules in `/site/modules/`
+  - Twig templates in `/site/templates/twig/`
+  - Asset management in `/site/assets/`
+  - Hook workflow in `/site/hooks/`
 
 ## Requirements
 
 - PHP 8.2+
 - ProcessWire CMS/CMF
 - Composer
-- PNPM
+- PNPM (you can use `npm` or `yarn` if you like)
 - DDEV (optional)
+
+## Stack
+
+- Tailwind CSS
+- AlpineJS
+- VanillaJS
+- Twig Templates

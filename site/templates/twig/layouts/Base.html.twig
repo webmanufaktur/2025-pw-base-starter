@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ language }}" class="scroll-smooth">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		
+		{{ include('components/Meta.html.twig') }}
+		{% block css %}
+			<link rel="stylesheet" type="text/css" href="{{ config.urls.templates }}styles/tailwind.css?v={{ "now"|date('U') }}"/>
+		{% endblock %}
+		{% block js %}
+			<script src="{{ config.urls.templates }}scripts/alpine.js"></script>
+		{% endblock %}
+	</head>
+	<body id="top"> {% block app %}{% endblock %}
+		</body>
+	</html>

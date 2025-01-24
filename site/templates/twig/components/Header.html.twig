@@ -1,0 +1,11 @@
+<header class="p-8 grid place-items-center border-[10px] border-black bg-white">
+	<a href="/">
+		HEADER
+	</a>
+	<div x-data="{ sayHello: false }">
+		<div>
+			<button x-on:click="sayHello = !sayHello">say it!</button>
+		</div>
+		<div x-show="sayHello">HELLO!</div>
+	</div>
+</header>

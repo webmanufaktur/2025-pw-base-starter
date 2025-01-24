@@ -1,0 +1,13 @@
+{% extends "layouts/App.html.twig" %}
+
+{% block content %}
+
+	{{ include('partials/block/placeholder.html.twig', {headline: 'Placeholder 1', id: 'placeholder-1', bgColor: 'bg-sky-500'}) }}
+
+	{{ include('partials/block/placeholder.html.twig', {headline: 'Placeholder 2', id: 'placeholder-2', bgColor: 'bg-green-500'}) }}
+
+	{{ include('partials/block/placeholder.html.twig', {headline: 'Placeholder 3', id: 'placeholder-3', bgColor: 'bg-orange-500'}) }}
+
+	{{ include('partials/block/placeholder.html.twig', {headline: 'Placeholder 4', id: 'placeholder-4', bgColor: 'bg-teal-500'}) }}
+
+{% endblock %}

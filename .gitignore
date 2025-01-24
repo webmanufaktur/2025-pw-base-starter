@@ -1,6 +1,19 @@
-.ddev
-/node_modules/
-/site/assets/backups/
-/site/assets/cache/
-/site/assets/logs/
-/site/assets/sessions/
+# See https://git-scm.com/docs/gitignore
+
+# Ignore everything in .ddev except config.yaml
+.ddev/*
+!.ddev/config.yaml
+
+# Ignore node_modules
+/node_modules/*
+
+# Ignore specific directories in site/assets
+/site/assets/backups/*
+/site/assets/cache/*
+/site/assets/logs/*
+/site/assets/sessions/*
+
+# Allow database folder but ignore all files inside it by default
+!/site/assets/backups/database/
+/site/assets/backups/database/*
+!/site/assets/backups/database/latest.sql

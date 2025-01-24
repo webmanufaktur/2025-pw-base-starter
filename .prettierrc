@@ -5,6 +5,8 @@
   "semi": false,
   "printWidth": 100,
   "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./site/templates/src/tailwind/tailwind.css",
+  "tailwindConfig": "./site/templates/src/tailwind/tailwind.config.js",
   "tabWidth": 2,
   "pluginSearchDirs": false
 }
