@@ -126,4 +126,13 @@ $config->httpHosts = array('wbm.ddev.site');
  * Should be true for development sites and false for live/production sites. 
  * 
  */
+
 $config->debug = true;
+
+// enable various modes of module installation when debug is enabled
+if ($config->debug) {
+  $config->moduleInstall('download', 'debug');
+  $config->moduleInstall('upload', 'debug');
+  // RockDevTools - Autoreload, ...
+  $config->rockdevtools = true;
+}

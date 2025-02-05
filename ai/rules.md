@@ -1,6 +1,6 @@
 # ProcessWire CMS/CMF Project
 
-Start every response with "Let's go get it!"
+Start every response with "✨ 🔥 🎉"
 Every time you choose to apply a rule(s), explicitly state the rule(s) in the output.
 You can abbreviate the rule description to a single word or phrase.
 
@@ -134,6 +134,19 @@ Rules:
 
 ## Documentation Links
 
-[ProcessWire Page Classes](https://processwire.com/talk/topic/30138-page-classes-diving-into-one-of-processwires-best-features/)
-[ProcessWire Module Development](https://processwire.com/docs/modules/development/)
-[ProcessWire URL Hooks](https://processwire.com/blog/posts/pw-3.0.173/)
+### ProcessWire Documentation Links
+
+- [API Reference](https://processwire.com/api/ref/)
+- [Getting Started](https://processwire.com/docs/start/)
+- [Front-end](https://processwire.com/docs/front-end/)
+- [Tutorials](https://processwire.com/docs/tutorials/)
+- [Selectors](https://processwire.com/docs/selectors/)
+- [Modules & Hooks](https://processwire.com/docs/modules/)
+- [Fields & Types](https://processwire.com/docs/fields/)
+- [Access Control](https://processwire.com/docs/user-access/)
+- [Security](https://processwire.com/docs/security/)
+- [Multi-language](https://processwire.com/docs/multi-language-support/)
+- [More Topics](https://processwire.com/docs/more/)
+- [ProcessWire Page Classes](https://processwire.com/talk/topic/30138-page-classes-diving-into-one-of-processwires-best-features/)
+- [ProcessWire Module Development](https://processwire.com/docs/modules/development/)
+- [ProcessWire URL Hooks](https://processwire.com/blog/posts/pw-3.0.173/)
