@@ -1,8 +1,8 @@
 # ProcessWire CMS/CMF Project
 
-Start every response with "✨ 🔥 🎉"
-Every time you choose to apply a rule(s), explicitly state the rule(s) in the output.
-You can abbreviate the rule description to a single word or phrase.
+Start every response with "✨✨✨"
+Every time you choose to apply a rule(s), explicitly state the rule(s) in the output. You can abbreviate the rule description to a single word or phrase.
+Every time you were assigned a task check if there are matching documentation links available to the requested topic. If so, state with "🔥🔥🔥" and the documentation link title.
 
 ## Project Context
 
